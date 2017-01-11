@@ -13,6 +13,12 @@
 		8717F9111E08EAC300AB7574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8717F90F1E08EAC300AB7574 /* Main.storyboard */; };
 		8717F9131E08EAC300AB7574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8717F9121E08EAC300AB7574 /* Assets.xcassets */; };
 		8717F9161E08EAC300AB7574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8717F9141E08EAC300AB7574 /* LaunchScreen.storyboard */; };
+		8717F92E1E0918EB00AB7574 /* RingHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8717F92D1E0918EB00AB7574 /* RingHeap.m */; };
+		8717F9321E09191A00AB7574 /* Ring.m in Sources */ = {isa = PBXBuildFile; fileRef = 8717F9311E09191A00AB7574 /* Ring.m */; };
+		8717F9381E0CD7A300AB7574 /* RingHeapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8717F9371E0CD7A300AB7574 /* RingHeapView.m */; };
+		8717F93B1E12D70100AB7574 /* AnchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8717F93A1E12D70100AB7574 /* AnchorPoint.m */; };
+		8717F93E1E12E05300AB7574 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8717F93D1E12E05300AB7574 /* Deck.m */; };
+		8717F9411E12E50C00AB7574 /* DeckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8717F9401E12E50C00AB7574 /* DeckView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		8717F9121E08EAC300AB7574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8717F9151E08EAC300AB7574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8717F9171E08EAC300AB7574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8717F92C1E0918EB00AB7574 /* RingHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RingHeap.h; path = Model/RingHeap.h; sourceTree = "<group>"; };
+		8717F92D1E0918EB00AB7574 /* RingHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RingHeap.m; path = Model/RingHeap.m; sourceTree = "<group>"; };
+		8717F9301E09191A00AB7574 /* Ring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ring.h; path = Model/Ring.h; sourceTree = "<group>"; };
+		8717F9311E09191A00AB7574 /* Ring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ring.m; path = Model/Ring.m; sourceTree = "<group>"; };
+		8717F9361E0CD7A300AB7574 /* RingHeapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingHeapView.h; sourceTree = "<group>"; };
+		8717F9371E0CD7A300AB7574 /* RingHeapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingHeapView.m; sourceTree = "<group>"; };
+		8717F9391E12D70100AB7574 /* AnchorPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnchorPoint.h; path = Model/AnchorPoint.h; sourceTree = "<group>"; };
+		8717F93A1E12D70100AB7574 /* AnchorPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnchorPoint.m; path = Model/AnchorPoint.m; sourceTree = "<group>"; };
+		8717F93C1E12E05300AB7574 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		8717F93D1E12E05300AB7574 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		8717F93F1E12E50C00AB7574 /* DeckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckView.h; sourceTree = "<group>"; };
+		8717F9401E12E50C00AB7574 /* DeckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +76,13 @@
 		8717F9051E08EAC300AB7574 /* Rings */ = {
 			isa = PBXGroup;
 			children = (
-				8717F9091E08EAC300AB7574 /* AppDelegate.h */,
-				8717F90A1E08EAC300AB7574 /* AppDelegate.m */,
+				8717F92F1E0918F800AB7574 /* Model */,
+				8717F9361E0CD7A300AB7574 /* RingHeapView.h */,
+				8717F9371E0CD7A300AB7574 /* RingHeapView.m */,
+				8717F93F1E12E50C00AB7574 /* DeckView.h */,
+				8717F9401E12E50C00AB7574 /* DeckView.m */,
 				8717F90C1E08EAC300AB7574 /* ViewController.h */,
 				8717F90D1E08EAC300AB7574 /* ViewController.m */,
-				8717F90F1E08EAC300AB7574 /* Main.storyboard */,
-				8717F9121E08EAC300AB7574 /* Assets.xcassets */,
-				8717F9141E08EAC300AB7574 /* LaunchScreen.storyboard */,
-				8717F9171E08EAC300AB7574 /* Info.plist */,
 				8717F9061E08EAC300AB7574 /* Supporting Files */,
 			);
 			path = Rings;
@@ -74,9 +91,30 @@
 		8717F9061E08EAC300AB7574 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8717F9091E08EAC300AB7574 /* AppDelegate.h */,
+				8717F90A1E08EAC300AB7574 /* AppDelegate.m */,
+				8717F90F1E08EAC300AB7574 /* Main.storyboard */,
+				8717F9121E08EAC300AB7574 /* Assets.xcassets */,
+				8717F9141E08EAC300AB7574 /* LaunchScreen.storyboard */,
+				8717F9171E08EAC300AB7574 /* Info.plist */,
 				8717F9071E08EAC300AB7574 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8717F92F1E0918F800AB7574 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8717F9301E09191A00AB7574 /* Ring.h */,
+				8717F9311E09191A00AB7574 /* Ring.m */,
+				8717F92C1E0918EB00AB7574 /* RingHeap.h */,
+				8717F92D1E0918EB00AB7574 /* RingHeap.m */,
+				8717F9391E12D70100AB7574 /* AnchorPoint.h */,
+				8717F93A1E12D70100AB7574 /* AnchorPoint.m */,
+				8717F93C1E12E05300AB7574 /* Deck.h */,
+				8717F93D1E12E05300AB7574 /* Deck.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8717F93E1E12E05300AB7574 /* Deck.m in Sources */,
+				8717F9321E09191A00AB7574 /* Ring.m in Sources */,
 				8717F90E1E08EAC300AB7574 /* ViewController.m in Sources */,
+				8717F9381E0CD7A300AB7574 /* RingHeapView.m in Sources */,
+				8717F92E1E0918EB00AB7574 /* RingHeap.m in Sources */,
+				8717F9411E12E50C00AB7574 /* DeckView.m in Sources */,
 				8717F90B1E08EAC300AB7574 /* AppDelegate.m in Sources */,
+				8717F93B1E12D70100AB7574 /* AnchorPoint.m in Sources */,
 				8717F9081E08EAC300AB7574 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
